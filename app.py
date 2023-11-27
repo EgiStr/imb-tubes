@@ -12,9 +12,11 @@ def main():
     st.set_page_config(
         page_title="IMB",
         page_icon="./logo.jpg",
-        layout="centered",
-        initial_sidebar_state="expanded",
+        layout="wide",
+        initial_sidebar_state="expanded"
     )
+
+
     # create title
     auth = Auth()
 
